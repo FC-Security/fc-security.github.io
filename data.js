@@ -102,39 +102,7 @@ const ENTRIES = [
     link:        "",
     date:        "2024-12-01",
   },
-  {
-    id:          "lab-webapp-exploit",
-    type:        "lab",
-    name:        "Web App Exploitation",
-    rank:        "B",
-    status:      "complete",
-    description: "Exploited OWASP Top 10 vulnerabilities including SQL injection, XSS, and IDOR on a deliberately vulnerable web app.",
-    tags:        ["BURP SUITE", "SQL INJECTION", "XSS", "OWASP"],
-    link:        "",
-    date:        "2025-01-15",
-  },
-  {
-    id:          "lab-active-directory",
-    type:        "lab",
-    name:        "Active Directory Attacks",
-    rank:        "B",
-    status:      "progress",
-    description: "Kerberoasting, Pass-the-Hash, and privilege escalation within a Windows domain lab environment.",
-    tags:        ["ACTIVE DIRECTORY", "KERBEROS", "MIMIKATZ"],
-    link:        "",
-    date:        "2025-02-10",
-  },
-  {
-    id:          "lab-malware-analysis",
-    type:        "lab",
-    name:        "Malware Analysis Lab",
-    rank:        "A",
-    status:      "locked",
-    description: "Static and dynamic analysis of malware samples in an isolated sandbox. Reverse engineering with Ghidra and x64dbg.",
-    tags:        ["GHIDRA", "SANDBOX", "REVERSE ENGINEERING", "RE"],
-    link:        "",
-    date:        "",
-  },
+  
 
   // ── PROJECTS ─────────────────────────────────────────
 
@@ -171,17 +139,7 @@ const ENTRIES = [
     link:        "",
     date:        "2025-03-01",
   },
-  {
-    id:          "proj-vuln-scanner",
-    type:        "project",
-    name:        "Vulnerability Scanner Script",
-    rank:        "B",
-    status:      "progress",
-    description: "Custom Python vulnerability scanner that wraps Nmap and checks for known CVEs against discovered service banners.",
-    tags:        ["PYTHON", "NMAP", "CVE", "AUTOMATION"],
-    link:        "",
-    date:        "2025-03-10",
-  },
+ 
 
 ];
 
@@ -194,11 +152,9 @@ const ENTRIES = [
  *  boss    (boolean)  true = renders as a gold "boss" quest
  */
 const QUESTS = [
-  { done: true,  name: "Complete TryHackMe — Jr Penetration Tester Path",  xp: 500,  boss: false },
-  { done: true,  name: "Earn CompTIA Security+ Certification",              xp: 1000, boss: false },
-  { done: true,  name: "Build and document Home SOC Lab",                   xp: 750,  boss: false },
-  { done: false, name: "Complete HackTheBox — Active Directory Path",       xp: 800,  boss: false },
-  { done: false, name: "Earn eJPT Certification",                           xp: 1200, boss: false },
-  { done: false, name: "Complete first CTF competition",                    xp: 600,  boss: false },
+  { done: false,  name: "Complete TryHackMe — Jr Penetration Tester Path",  xp: 500,  boss: false },
+  { done: false,  name: "Earn CompTIA Security+ Certification",              xp: 1000, boss: false },
+  { done: false,  name: "Build and document Home SOC Lab",                   xp: 750,  boss: false },
+  { done: false, name: "Attend DefCon",                    xp: 600,  boss: false },
   { done: false, name: "Achieve OSCP Certification  [BOSS RAID]",           xp: 5000, boss: true  },
 ];
