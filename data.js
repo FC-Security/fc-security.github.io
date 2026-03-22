@@ -70,15 +70,15 @@ const ENTRIES = [
   // ── LABS ─────────────────────────────────────────────
 
   {
-    id:          "lab-linux-privesc",
+    id:          "Junior Cybersecurity Analyst",
     type:        "lab",
-    name:        "Linux Privilege Escalation",
-    rank:        "D",
+    name:        "Introduction to Information Security",
+    rank:        "E",
     status:      "complete",
-    description: "Exploited SUID binaries, cron jobs, and weak sudo rules to escalate from a low-privilege shell to root.",
+    description: "Familiar with the theoretical aspects of security applications across networks, mobile devices, software, cloud environments, and operational systems",
     tags:        ["LINUX", "PRIVESC", "SUID", "SUDO"],
     link:        "",
-    date:        "2024-10-05",
+    date:        "2026-03-18",
   },
   {
     id:          "lab-forensics",
